@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Majora's Mask (SoH)
+Exec=/opt/n64/mm-bin/launch.sh
+Terminal=false
+Icon=oot-bin
+Type=Application
+Categories=Game;
+StartupWMClass=2ship.elf

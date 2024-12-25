@@ -1,0 +1,24 @@
+pkgbase = n64-mm-bin
+	pkgdesc = Recompilation of Ocarina of Time for modern systems
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://github.com/HarbourMasters/2ship2harkinian
+	arch = x86_64
+	license = MIT
+	makedepends = unzip
+	depends = zlib
+	depends = fuse2
+	options = !strip
+	options = !debug
+	source = https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.2/2Ship-Satoko-Charlie-Linux.zip
+	source = baserom.z64
+	source = launch.sh
+	source = n64-mm-bin.desktop
+	source = logo.png
+	sha256sums = 42e4186c60f48e3748038e1932b3aeaeec9d2c944b9a502994ac8707dcff7935
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = n64-mm-bin
